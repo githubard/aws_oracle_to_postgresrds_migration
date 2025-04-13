@@ -1,0 +1,12 @@
+Schema,Action item,Number of occurrences,Learning curve efforts,Efforts to convert an occurrence of the action item,Action item description,Recommended action
+HR,5075,1,0.0,0.1,PostgreSQL doesn't support the WITH READ ONLY clause for views,Revise your code to use views without the subquery restriction clause.
+HR,5326,1,0.0,0.2,PostgreSQL doesn't support status definitions in CREATE statements for triggers and constraints,Revise your code to turn off the trigger or drop the constraint manually and try again.
+HR,5340,2,80.0,16.0,DMS SC can't convert functions,Revise your code to use another function or create a user-defined function.
+HR,5581,1,4.0,0.1,PostgreSQL doesn't support index-organized tables,Revise your code to use a custom solution for the table type and try again.
+HR,5584,3,0.0,0.2,Review the converted function,Review the converted code and set the time zone manually where necessary.
+HR,5984,3,0.5,0.5,Specify the precision and scale values for your source column,"To improve the conversion and use the optimized data type mapping, specify the precision and scale values for the column in your source code. Then, convert the table again."
+CO,5320,3,0.0,0.5,PostgreSQL doesn't support views with the INVALID status,Convert your source code manually.
+CO,5341,1,1.0,4.0,PostgreSQL doesn't support LISTAGG functions with the ON OVERFLOW clause. ,Revise your code to use another function or create a user-defined function.
+CO,5984,18,0.5,0.5,Specify the precision and scale values for your source column,"To improve the conversion and use the optimized data type mapping, specify the precision and scale values for the column in your source code. Then, convert the table again."
+CO,9996,1,40.0,40.0,Internal Converter error occurred,Please submit report to developers.
+CO,9997,3,0.0,0.3,Unable to resolve objects,"Verify if the unresolved object is present in the database. If it isn't, check the object name or add the object. If the object is present, transform the code manually."
